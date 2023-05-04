@@ -74,9 +74,12 @@ p {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid var(--color-cornflower);
 }
 .header-nav {
   margin-right: auto;
+  display: flex;
+  align-items: center;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
