@@ -330,7 +330,6 @@ p {
 */
 .footer {
   background-color: var(--color-navy-blue);
-  padding: 100px 0;
 }
 footer .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -351,6 +350,9 @@ footer .footer-logo {
   color: var(--color-cloud);
   width: 264px;
 }
+.footer-div {
+  padding: 100px 0;
+}
 
 /**
   |============================
@@ -360,7 +362,7 @@ footer .footer-logo {
 
 /*Buttons*/
 .portfolio-section {
-  padding: 96px;
+  padding: 96px 0 120px;
 }
 .btn-title {
 }
