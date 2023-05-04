@@ -109,6 +109,9 @@ p {
   align-items: center;
   gap: 40px;
 }
+.header-nav-item {
+  padding: 24px 0;
+}
 .header-item1:hover,
 .header-item1:focus {
   color: var(--color-ocean);
