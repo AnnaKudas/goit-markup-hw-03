@@ -109,7 +109,6 @@ p {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-nav-item {
 }
@@ -123,7 +122,7 @@ p {
 }
 .header-nav-link {
   display: block;
-  padding: 24px;
+  padding: 24px 0;
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
