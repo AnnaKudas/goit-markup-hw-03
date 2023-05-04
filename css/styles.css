@@ -109,9 +109,9 @@ p {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-nav-item {
-  padding: 24px 0;
 }
 .header-item1:hover,
 .header-item1:focus {
