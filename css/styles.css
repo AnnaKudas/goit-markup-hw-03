@@ -229,7 +229,6 @@ p {
   gap: 24px;
 }
 .about-item {
-  width: calc((100% - 72px) / 4);
 }
 .about-item-ttl {
   font-weight: 500;
@@ -244,6 +243,7 @@ p {
 .about-content {
   display: block;
   width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 /**
