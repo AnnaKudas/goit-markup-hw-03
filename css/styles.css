@@ -70,11 +70,11 @@ p {
 */
 .header {
   padding: 24px 0;
+  border-bottom: 1px solid var(--color-cornflower);
 }
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--color-cornflower);
 }
 .header-nav {
   margin-right: auto;
