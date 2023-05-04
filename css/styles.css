@@ -330,8 +330,9 @@ p {
 */
 .footer {
   background-color: var(--color-navy-blue);
+  padding: 100px 0;
 }
-.footer-logo {
+footer .footer-logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.17;
@@ -339,6 +340,8 @@ p {
   text-transform: uppercase;
   color: var(--color-iris);
   font-weight: 800;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo-studio {
   color: var(--color-cloud);
