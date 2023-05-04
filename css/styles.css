@@ -176,7 +176,6 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--color-white);
@@ -230,6 +229,7 @@ p {
   gap: 24px;
 }
 .about-item {
+  width: calc((100% - 72px) / 4);
 }
 .about-item-ttl {
   font-weight: 500;
@@ -237,6 +237,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  margin-bottom: 8px;
 }
 .about-item-txt {
 }
