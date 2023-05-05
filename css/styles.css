@@ -444,6 +444,7 @@ footer .footer-logo {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  margin-bottom: 8px;
 }
 
 .cards-txt {
