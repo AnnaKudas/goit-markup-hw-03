@@ -371,6 +371,7 @@ footer .footer-logo {
   justify-content: center;
   display: flex;
   gap: 24px;
+  margin-bottom: 72px;
 }
 .section {
   padding: 120px 0;
@@ -387,6 +388,7 @@ footer .footer-logo {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  border: 1px solid var(--color-cornflower);
 }
 .container-btn {
 }
@@ -398,6 +400,7 @@ footer .footer-logo {
 .buttons:hover {
   background-color: var(--color-ocean);
   color: var(--color-white);
+  border: 1px solid transparent;
 }
 .buttons:active {
   background-color: var(--color-ocean);
@@ -406,6 +409,7 @@ footer .footer-logo {
 .buttons:focus {
   background-color: var(--color-ocean);
   color: var(--color-white);
+  border: 1px solid transparent;
 }
 /*Cards Section*/
 .cards {
