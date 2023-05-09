@@ -48,6 +48,7 @@ p {
 }
 
 .section {
+  padding: 120px 0;
 }
 
 .container {
@@ -73,14 +74,12 @@ p {
   |============================
 */
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid var(--color-cornflower);
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--color-cornflower);
 }
 
 .header-nav {
@@ -145,7 +144,6 @@ p {
 
 .contact {
   font-style: normal;
-  padding: 24px;
 }
 
 .contact:hover,
@@ -307,10 +305,9 @@ p {
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-img {
-  display: block;
+.use-cases {
+  padding-top: 0;
 }
-
 /**
   |============================
   | Team section
@@ -345,10 +342,6 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-img {
-  display: block;
-}
-
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -364,7 +357,7 @@ p {
 }
 
 .team-card-content {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 /**
@@ -419,10 +412,6 @@ footer .footer-logo {
   display: flex;
   gap: 24px;
   margin-bottom: 72px;
-}
-
-.section {
-  padding: 120px 0;
 }
 
 .buttons {
@@ -492,8 +481,10 @@ footer .footer-logo {
   display: flex;
   flex-direction: column;
 }
-.cards-img {
+.img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .cards-header {
