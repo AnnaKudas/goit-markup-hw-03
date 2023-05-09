@@ -68,11 +68,6 @@ p {
   text-decoration: none;
 }
 
-.img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 /**
   |============================
   | Header styles
@@ -312,6 +307,11 @@ p {
 
 .use-cases {
   padding-top: 0;
+}
+.portfolio-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 /**
   |============================
